@@ -37,7 +37,7 @@ def main():
         '0950'
     ]
 
-    number = input('Enter phone number:\n')
+    number = input('Enter phone number: ')
 
     # Substitutes country calling code with 0 if number begins with one
     country_code = re.compile(r'^\+63')
